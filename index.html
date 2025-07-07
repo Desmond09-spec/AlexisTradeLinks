@@ -1,0 +1,555 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Landed by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<style>
+		  .whatsapp-icon {
+		    height: 25px;
+		    width: 25px;
+		  }
+		  
+		  .whatsapp-icon-wrapper {
+		    position: absolute;
+		    left: -15%;
+		    bottom: 9.1%;
+		    border-bottom: none;
+		  }
+		  
+		  .whatsapp-icon-wrapper_contact {
+
+		    position: absolute;
+
+		    left: -15%;
+		    bottom: 0.3%;
+		    border-bottom: none;
+		  }
+		  
+		  .whatsapp-icon-wrapper-2 {
+		    position: absolute;
+		    left: -15%;
+		    bottom: 9.1%;
+		    border-bottom: none;
+		  }
+		  
+		  #learn-more {
+		    margin-left: 25px;
+		  }
+		  
+		  #message-sent {
+                position: fixed;
+                bottom: 1.5rem;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+
+                /* 👇 Core layout logic */
+
+                width: fit-content;
+                max-width: calc(100vw - 2rem); /* Gives padding on sides */
+
+                background-color: white;
+                color: #212529;
+                padding: 0.75rem 1.25rem;
+                border-radius: 1rem;
+                font-size: 0.95rem;
+                line-height: 1.4;
+                text-align: center;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+
+                opacity: 0;
+                pointer-events: none;
+                transition:
+                    opacity 0.4s ease,
+                    transform 0.4s ease;
+
+                z-index: 2147483647;
+            }
+
+            #message-sent.show {
+                opacity: 1;
+                transform: translateY(-20px);
+                pointer-events: auto;
+            }
+
+            #submit_error {
+                position: fixed;
+                bottom: 1.5rem;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+
+                /* 👇 Core layout logic */
+
+                width: fit-content;
+                max-width: calc(100vw - 2rem); /* Gives padding on sides */
+
+                background-color: white;
+                color: #212529;
+                padding: 0.75rem 1.25rem;
+                border-radius: 1rem;
+                font-size: 0.95rem;
+                line-height: 1.4;
+                text-align: center;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+
+                opacity: 0;
+                pointer-events: none;
+                transition:
+                    opacity 0.4s ease,
+                    transform 0.4s ease;
+
+                z-index: 2147483647;
+            }
+
+            #submit_error.show {
+                opacity: 1;
+                transform: translateY(-20px);
+                pointer-events: auto;
+            }
+
+            #submit_issue {
+                position: fixed;
+                bottom: 1.5rem;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+
+                /* 👇 Core layout logic */
+
+                width: fit-content;
+                max-width: calc(100vw - 2rem); /* Gives padding on sides */
+
+                background-color: white;
+                color: #212529;
+                padding: 0.75rem 1.25rem;
+                border-radius: 1rem;
+                font-size: 0.95rem;
+                line-height: 1.4;
+                text-align: center;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+
+                opacity: 0;
+                pointer-events: none;
+                transition:
+                    opacity 0.4s ease,
+                    transform 0.4s ease;
+
+                z-index: 2147483647;
+            }
+
+            #submit_issue.show {
+                opacity: 1;
+                transform: translateY(-20px);
+                pointer-events: auto;
+            }
+
+            #fill-in-all-fields {
+                position: fixed;
+                bottom: 1.5rem;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+
+                /* 👇 Core layout logic */
+
+                width: fit-content;
+                max-width: calc(100vw - 2rem); /* Gives padding on sides */
+
+                background-color: white;
+                color: #212529;
+                padding: 0.75rem 1.25rem;
+                border-radius: 1rem;
+                font-size: 0.95rem;
+                line-height: 1.4;
+                text-align: center;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+
+                opacity: 0;
+                pointer-events: none;
+                transition:
+                    opacity 0.4s ease,
+                    transform 0.4s ease;
+
+                z-index: 2147483647;
+            }
+
+            #fill-in-all-fields.show {
+                opacity: 1;
+                transform: translateY(-20px);
+                pointer-events: auto;
+            }
+            
+            #icons__c {
+              padding-top: 10px;
+            }
+		</style>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">AlexisTradeLinks</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li>
+								<a href="#one">About</a>
+								<!-- <ul>
+								  <li><a href="left-sidebar.html">Left Sidebar</a></li>
+								  <li><a href="right-sidebar.html">Right Sidebar</a></li>
+								  <li><a href="no-sidebar.html">No Sidebar</a></li>
+								  <li>
+								    <a href="#">Submenu</a>
+								    <ul>
+								      <li><a href="#">Option 1</a></li>
+								      <li><a href="#">Option 2</a></li>
+								      <li><a href="#">Option 3</a></li>
+								      <li><a href="#">Option 4</a></li>
+								    </ul>
+								  </li>
+								</ul> -->
+							</li>
+							<li><a href="#four">What We Do</a></li>
+							<li><a href="#five" class="button primary">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Welcome to AlexisTradeLinks</h2>
+							<p>We offer a wide range of electronic devices.
+							
+							We also provide expert inverter installation services.</p>
+						</header>
+						<span class="image"><img src="images/images (8).jpeg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/AlexisTradeLinks.jpeg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-12-medium">
+									<header>
+										<h2>About AlexisTradeLinks</h2>
+										<p>Our Journey, Our Family, Our Commitment</p>
+									</header>
+								</div>
+								<div class="col-4 col-12-medium">
+									<p>AlexisTradeLinks is a proud Nigerian brand, led by Aleriwa Sunkanmi. Aleriwa is happily married to Janet Sunkanmi and is a devoted father to Alexander and Nathaniel. He founded this company based on trust and excellence. We specialize in computer sales and servicing, as well as mobile and web app development.</p>
+								</div>
+								<div class="col-4 col-12-medium">
+									<p>Our expertise also includes reliable residential and business inverter solutions, along with professional CCTV installations for improved security. We are dedicated to providing quality products and services while building strong relationships within our community.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/sec-1.jpeg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Seamless Tech & Digital Innovation</h2>
+							<p>Your comprehensive partner for cutting-edge devices and custom software solutions.</p>
+						</header>
+						<p>Discover a wide range of high-performance computers, laptops, and peripherals tailored to your needs. Beyond hardware, our expert team crafts bespoke mobile and web applications, streamlining your operations and amplifying your online presence. We ensure your digital tools are always optimized and efficient.</p>
+						<ul class="actions">
+							<li>
+							  <a class="whatsapp-icon-wrapper" href="https://wa.me/2349026482707">
+							    <img src="images/whatsapp.png" class="whatsapp-icon" />
+							  </a>
+							  
+							  <a href="https://wa.me/2349026482707" class="button"><p id="learn-more">Learn More</p></a></li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/sec-2.jpeg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Reliable Power & Advanced Security</h2>
+							<p>Ensuring continuous operation and peace of mind for your home and business.</p>
+						</header>
+						<p>Experience uninterrupted power with our robust residential and commercial inverter installations, designed for efficiency and long-term performance. Fortify your premises with our state-of-the-art CCTV systems, providing vigilant surveillance and enhanced security. We deliver dependable solutions to protect what matters most.</p>
+						<ul class="actions">
+							<li>
+							  <a class="whatsapp-icon-wrapper-2" href="https://wa.me/2349026482707">
+							    <img src="images/whatsapp.png" class="whatsapp-icon" />
+							  </a>
+							  
+							  <a href="https://wa.me/2349026482707" class="button"><p id="learn-more">Learn More</p></a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>What We Do</h2>
+							<p>Explore our comprehensive suite of services designed for your every need.</p>
+						</header>
+						<div class="box alt">
+							<div class="row gtr-uniform">
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-desktop" id="icons__c"></span>
+									<h3>Computer Sales/Servicing</h3>
+									<p>Your go-to for top-tier systems and expert support.
+									</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-code"
+									id="icons__c"></span>
+									<h3>Mobile/Web App Development</h3>
+									<p>Innovate and expand with custom digital solutions.
+									</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-link"
+									id="icons__c"></span>
+									<h3>Residential/Business Inverter</h3>
+									<p>Powering your space with reliable, steady energy.
+									</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-cog"
+									id="icons__c"></span>
+									<h3>CCTV Installation</h3>
+									<p>Secure your premises with advanced surveillance.
+									</p>
+								</section>
+								<!-- <section class="col-4 col-6-medium col-12-xsmall">
+								  <span class="icon solid alt major fa-file"></span>
+								  <h3>Odio laoreet accumsan</h3>
+								  <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+								  <span class="icon solid alt major fa-lock"></span>
+								  <h3>Massa arcu accumsan</h3>
+								  <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section> -->
+							</div>
+						</div>
+						<footer class="major">
+						  <ul class="actions special">
+						   <li>
+							  <a class="whatsapp-icon-wrapper_contact" href="https://wa.me/2349026482707">
+							    <img src="images/whatsapp.png" class="whatsapp-icon" />
+							  </a>
+							  
+							  <a href="https://wa.me/2349026482707" class="button"><p id="learn-more">Contact Us</p></a></li>
+						  </ul>
+						</footer>
+					</div>
+				</section>
+
+			<!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Contact Us</h2>
+							<p>Reach out to us for inquiries or personalized support.
+							</p>
+						</header>
+						<form id="contact-form"
+                        action="https://formspree.io/f/mgvykjel"
+                        method="POST"
+                     class="cta">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-8 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Your Name" /></div>
+								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
+								<div class="col-8 col-12-xsmall"><input type="text" name="message" id="message" placeholder="Your Message" /></div>
+								<div class="col-4 col-12-xsmall"><input type="submit" value="Send Message" class="fit primary" /></div>
+							</div>
+						</form>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://x.com/AlexisTradelin1" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://m.facebook.com/Alexistradelinks/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<!-- <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
+						<li><a href="https://www.instagram.com/sunky777/?hl=en" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<!-- <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li> -->
+						<li><a href="mailto:digitechfrontendwebdevelopment@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; AlexisTradeLinks. All rights reserved.</li><!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+					</ul>
+				</footer>
+
+		</div>
+		
+		<button id="scrollToTop" title="Go to top">
+            <i class="fas fa-arrow-up arrow--up"></i>
+        </button>
+
+        <div id="message-sent">Your message has been sent.</div>
+
+        <div id="fill-in-all-fields">
+            Please fill in all fields before submitting.
+        </div>
+
+        <div id="submit_issue">There was an issue submitting the form.</div>
+
+        <div id="submit_error">An error occurred. Please try again later.</div>
+
+        
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			<script>
+            // Show or hide button on scroll
+            const scrollBtn = document.getElementById("scrollToTop");
+
+            window.addEventListener("scroll", () => {
+                if (
+                    document.body.scrollTop > 200 ||
+                    document.documentElement.scrollTop > 200
+                ) {
+                    scrollBtn.style.display = "flex";
+                } else {
+                    scrollBtn.style.display = "none";
+                }
+            });
+
+            // Scroll to top on click
+            scrollBtn.addEventListener("click", () => {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+        </script>
+
+        <script>
+            function messageSent() {
+                const messageSentT = document.getElementById("message-sent");
+
+                messageSentT.classList.add("show");
+
+                setTimeout(() => {
+                    messageSentT.classList.remove("show");
+                }, 6000); // visible for 2.5 seconds
+            }
+        </script>
+
+        <script>
+            function submitIssue() {
+                const submitIssueT = document.getElementById("submit_issue");
+
+                const toast1 = document.getElementById("screenshot-toast");
+
+                toast1.classList.remove("show");
+
+                submitIssueT.classList.add("show");
+
+                setTimeout(() => {
+                    submitIssueT.classList.remove("show");
+                }, 3000); // visible for 2.5 seconds
+            }
+        </script>
+
+        <script>
+            function submitError() {
+                const submitErrorT = document.getElementById("submit_error");
+
+                const toast1 = document.getElementById("screenshot-toast");
+
+                toast1.classList.remove("show");
+
+                submitErrorT.classList.add("show");
+
+                setTimeout(() => {
+                    submitErrorT.classList.remove("show");
+                }, 3000); // visible for 2.5 seconds
+            }
+        </script>
+
+        <script>
+            function fillInAllFields() {
+                const fillInAllFieldsT =
+                    document.getElementById("fill-in-all-fields");
+
+                fillInAllFieldsT.classList.add("show");
+
+                setTimeout(() => {
+                    fillInAllFieldsT.classList.remove("show");
+                }, 3000); // visible for 2.5 seconds
+            }
+        </script>
+
+        <script>
+            const form = document.getElementById("contact-form");
+            form.addEventListener("submit", async e => {
+                e.preventDefault();
+
+                const name = document.getElementById("name").value.trim();
+                const email = document.getElementById("email").value.trim();
+                const message = document.getElementById("message").value.trim();
+
+                if (!name || !email || !message) {
+                    fillInAllFields();
+                    return;
+                }
+
+                try {
+                    const response = await fetch(
+                        "https://formspree.io/f/mgvykjel",
+                        {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ name, email, message })
+                        }
+                    );
+
+                    if (response.ok) {
+                        messageSent();
+                        form.reset();
+                    } else {
+                        submitIssue();
+                    }
+                } catch (err) {
+                    console.error("Submission error:", err);
+                    submitError();
+                }
+            });
+        </script>
+
+	</body>
+</html>
